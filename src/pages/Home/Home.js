@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import './Home.css';
-import Scrollspy from 'react-scrollspy';
-
+import Jumbotron from '../../components/Jumbotron';
 
 class Home extends Component {
     render() {
         return(
-            <div className="home">
-            
+            <div className='home'>
+                <Jumbotron />
             </div>
-        );
+        )
     }
 }
 

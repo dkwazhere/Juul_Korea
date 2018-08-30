@@ -16,10 +16,10 @@ class App extends Component {
           <Container className="main">
               <ul className="header">
                 <li><img className="logo-img" alt='juulimg' src={image}></img></li>
-                <li><a><NavLink exact to="/">Home</NavLink></a></li>
-                <li><a><NavLink to="/about">About Us</NavLink></a></li>
-                <li><a><NavLink to="/shop">Shop</NavLink></a></li>
-                <li><a><NavLink to="/contact">Contact</NavLink></a></li>
+                <li><NavLink exact to="/">Home</NavLink></li>
+                <li><NavLink to="/about">About Us</NavLink></li>
+                <li><NavLink to="/shop">Shop</NavLink></li>
+                <li><NavLink to="/contact">Contact</NavLink></li>
               </ul>
 
               <div className="content">

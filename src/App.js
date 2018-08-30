@@ -11,10 +11,10 @@ class App extends Component {
       <HashRouter>
           <Container className="main">
               <ul className="header">
-              <h1 id="main-name">Juul Korea</h1>
-                <a><NavLink exact to="/">Home / </NavLink></a>
-                <a><NavLink to="/about">About Us / </NavLink></a>
-                <a><NavLink to="/shop">Shop / </NavLink></a>
+              <a id="app-name">Juul Korea </a>
+                <a><NavLink exact to="/">Home</NavLink></a> <a> / </a>
+                <a><NavLink to="/about">About Us</NavLink></a><a> / </a>
+                <a><NavLink to="/shop">Shop</NavLink></a><a> / </a>
                 <a><NavLink to="/contact">Contact</NavLink></a>
               </ul>
 

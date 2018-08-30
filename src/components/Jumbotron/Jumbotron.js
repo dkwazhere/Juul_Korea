@@ -4,7 +4,7 @@ import './Jumbotron.css';
 
 const Example = (props) => {
   return (
-    <div>
+    <div className='Jumbotron'>
       <Jumbotron>
         <h1 className="display-3">Juul Korea</h1>
         <p className="lead">We are an American Based Company that supply Juul products and other similar products to Korea</p>

@@ -21,31 +21,39 @@ class Carousel extends React.Component {
       };
       return (
         <div>
-          <h2> Multiple items </h2>
+          <h2> Juul Pod Flavors </h2>
           <Slider {...settings}>
             <div>
-              <img src={Classicmenthol}></img>
+              <img src={Classicmenthol} alt='classicmenthol'></img>
+              <a>Classic Menthol Pods</a>
             </div>
             <div>
-              <img src={Classictobacco}></img>
+              <img src={Classictobacco} alt='classictobacco'></img>
+              <a>Classic Tobacco Pods</a>
             </div>
             <div>
-              <img src={Coolcucumber}></img>
+              <img src={Coolcucumber} alt='coolcucumber'></img>
+              <a>Cool Cucumber Pods</a>
             </div>
             <div>
-              <img src={Coolmint}></img>
+              <img src={Coolmint} alt='coolmint'></img>
+              <a>Cool Mint Pods</a>
             </div>
             <div>
-              <img src={Cremebrulee}></img>
+              <img src={Cremebrulee} alt='cremebrulee'></img>
+              <a>Creme Brulee Pods</a>
             </div>
             <div>
-              <img src={Fruitmedley}></img>
+              <img src={Fruitmedley} alt='fruitmedley'></img>
+              <a>Fruit Medley Pods</a>
             </div>
             <div>
-              <img src={Mango}></img>
+              <img src={Mango} alt='mango'></img>
+              <a>Mango Pods</a>
             </div>
             <div>
-              <img src={Virginiatobacco}></img>
+              <img src={Virginiatobacco} alt='virginiatobacco'></img>
+              <a>Virginia Tobacco Pods</a>
             </div>
           </Slider>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import './Carousel';
+import './Carousel.css';
 
 class Carousel extends React.Component {
   render() {
@@ -17,10 +17,10 @@ class Carousel extends React.Component {
           <img src='https://avatars0.githubusercontent.com/u/29829664?s=460&v=4'></img>
         </div>
         <div>
-          <img src='https://avatars0.githubusercontent.com/u/29829664?s=460&v=4'></img>
+          <h3>2</h3>
         </div>
         <div>
-          <img src='https://avatars0.githubusercontent.com/u/29829664?s=460&v=4'></img>
+          <h3>3</h3>
         </div>
         <div>
           <h3>4</h3>

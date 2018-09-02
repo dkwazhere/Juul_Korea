@@ -2,3 +2,11 @@
     height: 150px;
     width: 150px;
 }
+
+.slick-dots {
+    background-color: white;
+}
+
+button::before {
+    
+}

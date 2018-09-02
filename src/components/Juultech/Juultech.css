@@ -1,0 +1,22 @@
+.juultech-container {
+    padding-top: 10%;
+    padding-bottom: 25%;
+    height: 250px;
+    background-color: #e2ecf3;
+}
+
+.juultech-img {
+    float: left;
+    padding-left: 20%;
+}
+
+.juultech-side {
+    float: right;
+    padding-right: 20%;
+}
+
+.juuldevpic {
+    height: 200px;
+    width: 200px;
+    margin-left: 25%;
+}

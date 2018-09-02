@@ -47,7 +47,7 @@ class Carousel extends React.Component {
         prevArrow: <SamplePrevArrow />
       };
       return (
-        <div>
+        <div className='carousel-container'>
           <h2> Juul Pod Flavors </h2>
           <Slider {...settings}>
             <div>

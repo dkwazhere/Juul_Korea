@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './Home.css';
 import Jumbotron from '../../components/Jumbotron';
-import Carousel from '../../components/Carousel'
+import Carousel from '../../components/Carousel';
+import Juultech from '../../components/Juultech';
 
 class Home extends Component {
     render() {
@@ -9,6 +10,7 @@ class Home extends Component {
             <div className='home'>
                 <Jumbotron />
                 <Carousel />
+                <Juultech />
             </div>
         )
     }

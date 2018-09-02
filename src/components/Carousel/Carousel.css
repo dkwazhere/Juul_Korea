@@ -8,5 +8,9 @@
 }
 
 button::before {
-    
+
+}
+
+.carousel-container {
+    padding-bottom: 5%;
 }

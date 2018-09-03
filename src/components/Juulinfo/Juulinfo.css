@@ -1,0 +1,16 @@
+.juul-info {
+    padding: 15%;
+}
+
+.juul-device-info {
+    float: left;
+    padding-top: 5%;
+}
+
+.juul-device-pic-container {
+    float: right;
+}
+
+.juul-device-pic {
+    height: 250px
+}

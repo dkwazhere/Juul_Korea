@@ -7,7 +7,7 @@ const Aboutjumbotron = (props) => {
   return (
     <div className='Jumbotron'>
       <Jumbotron>
-        <h1 className="display-3">Juul Technology</h1>
+        <h6 className="juul-tech">Juul Technology</h6>
         <img src={Aboutjumbopic} alt='aboutjumbopic'></img>
       </Jumbotron>
       <div className='about-intro'>JUUL Labs was founded with the goal of improving the lives of the world’s one billion adult smokers by providing them with an easy to use vapor alternative to combustible cigarettes, containing a similar level of nicotine to make switching as easy as possible.</div>

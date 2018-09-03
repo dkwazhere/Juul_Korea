@@ -8,26 +8,26 @@ import Juultechsettings from '../../assets/images/juultechnology/juultech-settin
 const Juultech = (props) => {
   return (
     <div className='juultech-container'>
-        <img className='juuldevpic' alt='juuldevpic' src={Juuldeviceimg}></img>
+        <div className='juultech-img'><img className='juuldevpic' alt='juuldevpic' src={Juuldeviceimg}></img></div>
         <div className='juultech-side'>
             <div>
-                <div><img src={Juultechcheck}></img></div>
                 <div>
-                    <h6>Simplicity</h6>
+                    <img alt='juultech-settings' src={Juultechsettings}></img>
+                    <h6 className='juultech-header'>Simplicity</h6>
                 </div>
             </div>
 
             <div>
-                <div><img src={Juultechcloud}></img></div>
                 <div>
-                    <h6>Clean</h6>
+                    <img alt='juultech-cloud' src={Juultechcloud}></img>
+                    <h6 className='juultech-header'>Clean</h6>
                 </div>
             </div>
 
             <div>
-                <div><img src={Juultechsettings}></img></div>
                 <div>
-                <h6>Satisfying</h6>
+                    <img alt='juultech-check' src={Juultechcheck}></img>
+                    <h6 className='juultech-header'>Satisfying</h6>
                 </div>
             </div>
         </div>

@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './About.css';
+import Aboutjumbotron from '../../components/Aboutjumbotron';
 
 class About extends Component {
     render() {
         return(
             <div className='home'>
-                <h1>About us</h1>
+                <Aboutjumbotron />
             </div>
         )
     }

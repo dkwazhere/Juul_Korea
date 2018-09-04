@@ -10,28 +10,6 @@ import Fruitmedley from '../../assets/images/flavors/fruitmedley.jpg';
 import Mango from '../../assets/images/flavors/mango.jpg';
 import Virginiatobacco from '../../assets/images/flavors/virginiatobacco.jpg';
 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "gray" }}
-      onClick={onClick}
-    />
-  );
-}
-
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "gray" }}
-      onClick={onClick}
-    />
-  );
-}
-
 class Carousel extends React.Component {
     render() {
       const settings = {
@@ -42,9 +20,7 @@ class Carousel extends React.Component {
         autoplay: true,
         speed: 2000,
         autoplayspeed: 2000,
-        cssEase: 'linear',
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
+        cssEase: 'linear'
       };
       return (
         <div className='carousel-container'>

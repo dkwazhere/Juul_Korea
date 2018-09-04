@@ -9,8 +9,28 @@
 
 .juul-device-pic-container {
     float: right;
+    margin-right: 5%;
 }
 
 .juul-device-pic {
     height: 250px
+}
+
+.juul-pod-info {
+    float: left;
+    padding-top: 15%;
+}
+
+.juul-pod-pic {
+    height: 250px;
+}
+
+.juul-pod-pic-container {
+    float: right;
+    margin-top: 25%;
+    margin-left: 90px;
+}
+
+.horizontal-rule {
+    padding-bottom: 15%;
 }

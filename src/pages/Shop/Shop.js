@@ -4,7 +4,7 @@ import './Shop.css';
 class Shop extends Component {
     render() {
         return(
-            <div className='home'>
+            <div className='shop'>
                 <h1>Shop</h1>
             </div>
         )

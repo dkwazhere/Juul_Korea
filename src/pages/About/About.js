@@ -6,7 +6,7 @@ import Juulinfo from '../../components/Juulinfo';
 class About extends Component {
     render() {
         return(
-            <div className='home'>
+            <div className='about-container'>
                 <Aboutjumbotron />
                 <Juulinfo />
             </div>

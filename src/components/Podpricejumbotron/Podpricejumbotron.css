@@ -1,0 +1,19 @@
+.pod-intro {
+    background-color: #004262;
+    color: WHITE;
+    font-size: 40px;
+    padding: 2%;
+}
+
+.pod-price {
+    font-size: 12px;
+    padding-left: 3%;
+}
+
+.pod-quantity {
+    font-size: 12px;
+}
+
+.pod-quantity a {
+    margin-bottom: 5%;
+}

@@ -5,3 +5,8 @@
 #exampleText {
     height: 200px;
 }
+
+.form-container {
+    padding: 5%;
+    font-family: 'Quicksand', sans-serif;
+}

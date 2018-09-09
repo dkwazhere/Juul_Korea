@@ -1,8 +1,10 @@
 .pod-intro {
+    font-family: 'Quicksand', sans-serif;
     background-color: #004262;
     color: WHITE;
     font-size: 40px;
     padding: 2%;
+    padding-left: 8%;
 }
 
 .pod-price {

@@ -10,6 +10,7 @@ ul {
 li {
     float: left;
     padding-top: 2%;
+    font-family: 'Quicksand', sans-serif;
 }
 
 li a {

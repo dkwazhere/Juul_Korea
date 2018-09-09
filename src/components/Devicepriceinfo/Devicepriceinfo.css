@@ -1,0 +1,25 @@
+.device-intro {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #004262;
+    color: WHITE;
+    font-size: 40px;
+    padding: 2%;
+    padding-left: 8%;
+}
+
+.device-price {
+    font-size: 12px;
+    padding-left: 3%;
+}
+
+.device-quantity {
+    font-size: 12px;
+}
+
+.device-quantity a {
+    margin-bottom: 5%;
+}
+
+.device-contain {
+    font-size: 12px;
+}
